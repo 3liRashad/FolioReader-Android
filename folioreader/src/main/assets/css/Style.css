@@ -171,7 +171,7 @@ html .highlight_underline {
     border-bottom: 2px solid #F02814;
 }
 
-html .highlight_yellow, html .highlight_green, html .highlight_blue, html .highlight_pink, span.epub-media-overlay-playing {
+html .highlight_green, html .highlight_blue, html .highlight_pink, span.epub-media-overlay-playing {
     border-radius: 3px;
     padding: 0 2px;
     margin: 0 -2px;
@@ -262,11 +262,11 @@ html.nightMode .highlight_underline {border-bottom: 2px solid rgba(240, 40, 20, 
      font-family: "raleway", sans-serif;
  }
 
-html.textSizeOne { font-size: 1px !important; }
+html.textSizeOne { font-size: 8px !important; }
 html.textSizeTwo { font-size: 15px !important; }
 html.textSizeThree { font-size: 17px !important; }
 html.textSizeFour { font-size: 19px !important; }
-html.textSizeFive { font-size: 81px !important; }
+html.textSizeFive { font-size: 21px !important; }
 
 h1 {
     font-size: 2rem;
@@ -290,7 +290,7 @@ h5 {
 }
 h6 {
     font-size: 0.67rem;
-    line-height: 9.2;
+    line-height: 1.2;
 }
 body {
     word-break: break-word !important;
