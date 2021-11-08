@@ -101,9 +101,11 @@ public final class HtmlUtil {
             default:
                 break;
         }
-
+        android.util.Log.d(TAG, "htmlBefore: " + htmlContent);
+        android.util.Log.d(TAG, "classes: " + classes);
         htmlContent = htmlContent.replace("<html", "<html class=\"" + classes + "\"" +
                 " onclick=\"onClickHtml()\"");
+        android.util.Log.d(TAG, "htmlAfter: " + htmlContent);
         return htmlContent;
     }
 }

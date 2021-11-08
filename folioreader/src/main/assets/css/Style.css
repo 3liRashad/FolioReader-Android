@@ -171,7 +171,7 @@ html .highlight_underline {
     border-bottom: 2px solid #F02814;
 }
 
-html .highlight_green, html .highlight_blue, html .highlight_pink, span.epub-media-overlay-playing {
+html .highlight_yellow, html .highlight_green, html .highlight_blue, html .highlight_pink, span.epub-media-overlay-playing {
     border-radius: 3px;
     padding: 0 2px;
     margin: 0 -2px;
