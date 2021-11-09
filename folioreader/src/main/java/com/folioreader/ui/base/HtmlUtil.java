@@ -5,6 +5,7 @@ import android.content.Context;
 import com.folioreader.Config;
 import com.folioreader.Constants;
 import com.folioreader.R;
+import android.util.Log;
 
 /**
  * @author gautam chibde on 14/6/17.
