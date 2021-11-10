@@ -266,8 +266,7 @@ html.textSizeOne { font-size: 8px !important; }
 html.textSizeTwo { font-size: 15px !important; }
 html.textSizeThree { font-size: 17px !important; }
 html.textSizeFour { font-size: 19px !important; }
-html.textSizeFive { font-size: 21px !important; }
-html.textColor { color: blue; }
+html.textSizeFive { font-size: 80px !important; }
 
 h1 {
     font-size: 2rem;
@@ -294,9 +293,6 @@ h6 {
     line-height: 1.2;
 }
 
-.c1{
-	color: blue !important;
-}
 body {
     word-break: break-word !important;
     -webkit-hyphens: auto !important;
@@ -305,6 +301,7 @@ body {
 p, span, div {
     font-size: 1rem;
     line-height: 1.5 !important;
+    color: blue !important;
 }
 @media only screen and (min-device-width: 600px) {
     div {
