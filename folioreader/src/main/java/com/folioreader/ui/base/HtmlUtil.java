@@ -106,6 +106,7 @@ public final class HtmlUtil {
             default:
                 break;
         }
+        classes += " textColor";
         Log.w("TAG", "htmlBefore: " + htmlContent);
         Log.w("TAG", "classes: " + classes);
         htmlContent = htmlContent.replace("<html", "<html class=\"" + classes + "\"" +
