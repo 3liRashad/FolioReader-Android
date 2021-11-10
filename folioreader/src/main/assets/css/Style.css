@@ -293,6 +293,10 @@ h6 {
     font-size: 0.67rem;
     line-height: 1.2;
 }
+
+.c1{
+	color: blue !important;
+}
 body {
     word-break: break-word !important;
     -webkit-hyphens: auto !important;
